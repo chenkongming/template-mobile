@@ -11,23 +11,27 @@
 </template>
 
 <script>
-import { Group, Cell } from 'vux'
+import {Group, Cell} from 'vux';
 
 export default {
-  components: {
-    Group,
-    Cell
-  },
-  data () {
-    return {
-      // note: changing this line won't causes changes
-      // with hot-reload because the reloaded component
-      // preserves its current state and we are modifying
-      // its initial state.
-      msg: 'Hello World!'
-    }
-  }
-}
+	components: {
+		Group,
+		Cell
+	},
+	data() {
+		return {
+			// note: changing this line won't causes changes
+			// with hot-reload because the reloaded component
+			// preserves its current state and we are modifying
+			// its initial state.
+			msg: 'Hello World!'
+		};
+	},
+	created() {
+
+
+	}
+};
 </script>
 
 <style>
