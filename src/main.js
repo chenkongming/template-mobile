@@ -3,6 +3,7 @@
 import Vue from 'vue';
 import App from './App';
 import FastClick from 'fastclick';
+import 'lib-flexible';
 Vue.config.productionTip = false;
 FastClick.attach(document.body);
 /* eslint-disable no-new */

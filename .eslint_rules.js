@@ -156,8 +156,8 @@ module.exports={
   "id-match": 2,
   <!--强制在 JSX 属性中一致地使用双引号或单引号-->
   "jsx-quotes": 2,
-  <!--强制使用一致的换行风格-->
-  "linebreak-style": ["error", "windows"],
+  <!--不强制使用一致的换行风格-->
+  "linebreak-style": 0,
   <!--强制可嵌套的块的最大深度-->
   "max-depth": 2,
   <!--强制回调函数最大嵌套深度-->
