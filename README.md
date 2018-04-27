@@ -1,21 +1,5 @@
-# moile-template
-
-> frame template
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+NProgress:https://blog.csdn.net/qq_35844177/article/details/70171054
+vux主题：https://segmentfault.com/q/1010000008365249
+less:http://lesscss.cn/
+后台：https://segmentfault.com/a/1190000009275424
+vux:https://doc.vux.li/zh-CN/vux-loader/install.html
