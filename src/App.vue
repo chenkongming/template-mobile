@@ -1,18 +1,17 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloFromVux';
-
+import $api from "./api/test";
 export default {
-	name: 'App',
+	name: "App",
 	components: {
-		HelloWorld
-	}
+	},
+  created(){
+    console.log($api.testApi);
+  }
 };
 </script>
 
